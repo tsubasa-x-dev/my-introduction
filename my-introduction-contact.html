@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>お問い合わせ</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="my-introduction.css">
+    </head>
+    <body class="body">
+        <header class="header">
+            <h1>自己紹介サイト</h1>
+            <p>web制作を学習中</p>
+            <nav class="nav">
+                <a href="my-introduction-index.html">ホーム</a>
+                <a href="my-introduction-profile.html">プロフィール</a>
+                <a href="my-introduction-hobby.html">趣味</a>
+                <a href="my-introduction-contact.html">お問い合わせ</a> 
+            </nav>
+        </header>
+        
+        <form class="center" method="GET" action="my-introduction-thanks.html">
+            <h1>お問い合わせ</h1>
+        <p>お客様情報を入力して送信してください。<br>内容の書き間違いにご注意ください。</p>
+            <p><b>お名前</b></p>
+            <input type="text" name="name" placeholder="例）山田太郎">
+            <br>
+            <p><b>メールアドレスの入力</b></p>
+            <input type="text" name="mail" placeholder="メールアドレスの入力"> 
+            <p>用件をご記入ください。</p>
+            <textarea name="youkenn" rows="5" cols="40"></textarea>
+            <br>
+            <button type="submit" value="送信">送信</button>
+            <button type="reset" value="リセット">リセット</button>
+        </form>
+    </body>
+</html>
