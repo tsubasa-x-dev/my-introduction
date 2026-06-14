@@ -20,7 +20,7 @@
     align-items: center;
     gap: 10px;
 }
-/* PC */
+/* パソコン */
 @media (min-width: 768px) {
     .nav {
         flex-direction: row;
@@ -62,4 +62,18 @@ padding:0.5em;
 }
 main, section {
   margin-left: 30px;
+}
+/*写真*/
+/*スマホ*/
+.img{
+    max-width:100%;
+    height: auto;
+    margin-top: 16px;
+}
+/*パソコン*/
+@media (min-width: 768px){
+    .img{
+        max-width: 600px;
+        margin-top: 32px;
+    }
 }
